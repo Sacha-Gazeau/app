@@ -1,0 +1,27 @@
+.skills {
+  padding-bottom: 10rem;
+  position: relative;
+}
+.skills--content {
+  align-content: end;
+}
+.skills--items {
+  width: auto; /* Pour que la grille prenne juste la place nécessaire */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: end;
+  gap: 2rem;
+}
+
+.skills--item {
+  border: 2px solid var(--color-secondary);
+  & .skills--subtitle {
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-secondary);
+  }
+  & p {
+    padding: 0.7rem;
+  }
+}

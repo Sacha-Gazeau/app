@@ -1,0 +1,20 @@
+:root {
+  --color-background: #c9c9b5;
+  --color-secondary: #0e5d41;
+  --color-secondary-light: #0e5d41b9;
+  --color-text: #000000;
+  --color-gray: #454545;
+  --color-orange: #e7ba84;
+  --color-orange-light: #e7ba8477;
+  --sun-color: #f3ffa3;
+}
+
+.theme-dark {
+  --color-background: #20202c;
+  --color-secondary: #71c6a3;
+  --color-secondary-light: #71c6a3b9;
+  --color-text: #e6e6e6;
+  --color-gray: #b3b2b2;
+  --color-orange: #d5872a;
+  --color-orange-light: #d5882a77;
+}

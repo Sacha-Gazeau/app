@@ -1,0 +1,11 @@
+.fun-facts--item {
+  border: 2px solid var(--color-secondary);
+  padding: 0.5rem;
+}
+.fun-facts--items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 1.3rem;
+  padding-bottom: 5rem;
+}
